@@ -1,0 +1,10 @@
+
+.vs/*
+Binaries/*
+Build/*
+Content/ParagonWraith/*
+Content/StarterBundle/*
+DerivedDataCache/*
+Intermediate/*
+Saved/*
+*.sln
