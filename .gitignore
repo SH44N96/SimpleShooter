@@ -2,9 +2,11 @@
 .vs/*
 Binaries/*
 Build/*
+Content/FPWeapon/*
 Content/ParagonWraith/*
 Content/StarterBundle/*
-Content/FPWeapon/*
+Content/StarterContent/*
+Content/Weapons/*
 DerivedDataCache/*
 Intermediate/*
 Saved/*

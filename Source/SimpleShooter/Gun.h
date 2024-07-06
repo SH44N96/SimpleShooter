@@ -18,16 +18,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintImplementableEvent)
 	void PullTrigger();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	USkeletalMeshComponent* Mesh;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
-
-	UPROPERTY(VisibleAnywhere)
-	USkeletalMeshComponent* Mesh;
 };
