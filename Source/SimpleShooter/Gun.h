@@ -28,6 +28,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	USkeletalMeshComponent* Mesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MaxRange = 1000;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
