@@ -32,3 +32,8 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 }
+
+void AShooterCharacter::Shoot()
+{
+	Gun->PullTrigger();
+}
