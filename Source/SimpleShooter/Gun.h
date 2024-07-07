@@ -31,6 +31,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxRange = 1000;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Damage = 10;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
